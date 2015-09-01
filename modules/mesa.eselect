@@ -1,10 +1,8 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 DESCRIPTION="Manage the OpenGL driver architecture used by media-libs/mesa"
 MAINTAINER="x11@gentoo.org"
-SVN_DATE='$Date: $'
-VERSION=$(svn_date_to_version "${SVN_DATE}" )
 EBUILD_VERSION="0.0.10"
 
 MESA_CONF_DIR="${EROOT}/usr/share/mesa"
